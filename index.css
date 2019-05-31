@@ -1,8 +1,15 @@
 /*body {
     background-color: rgb(37,41,52);
 }*/
-
-h1 {
+#moregay {
+    color:pink;
+    display: flex;
+    justify-content:center;
+    height: 750px;
+    width: 100vw;
+    background-color: rgb(37,41,52);
+}
+#gay {
     color:pink;
     display: flex;
     justify-content:center;
