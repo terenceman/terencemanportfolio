@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <h1> Welcome to my Portfolio</h1>
+    <h1> Welcome to my Portfolio<br>I am here but not centered</h1>
     <div>
         <nav class="navbar navbar-expand-sm bg-light">
             <ul class="navbar-nav">
@@ -41,42 +41,51 @@
             </ul>
         </nav>
     </div>
-    <div id="imgcarousel" class="carousel slide" data-ride="carousel">
-        <!-- Carousel Indicators Below-->
-        <ul class="carousel-indicators">
-            <li data-target="#imgcarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#imgcarousel" data-slide-to="1"></li>
-            <li data-target="#imgcarousel" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/King Crimson.jpg" width="500" height="500">
-                <div class="carousel-caption">
-                    <h2>King Crimson</h2>
-                    <p> I have seen your future</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div id="imgcarousel" class="carousel slide col-md-8" data-ride="carousel">
+                <!-- Carousel Indicators Below-->
+                <ul class="carousel-indicators">
+                    <li data-target="#imgcarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#imgcarousel" data-slide-to="1"></li>
+                    <li data-target="#imgcarousel" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/King Crimson.jpg" width="500" height="500">
+                        <div class="carousel-caption">
+                            <h2>King Crimson</h2>
+                            <p> I have seen your future</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Win.jfif" width="500" height="500">
+                        <div class="carousel-caption">
+                            <h2>I see this as an absolute win</h2>
+                            <p>I see this as an absolute win</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/kbjn.jpg" width="500" height="500">
+                        <div class="carousel-caption">
+                            <h2>I am sleepy</h2>
+                            <p> zzzzzzzzzz</p>
+                        </div>
+                    </div>
                 </div>
+                <a class="carousel-control-prev" href="#imgcarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#imgcarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
-            <div class="carousel-item">
-                <img src="images/Win.jfif" width="500" height="500">
-                <div class="carousel-caption">
-                    <h2>I see this as an absolute win</h2>
-                    <p>I see this as an absolute win</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/kbjn.jpg" width="500" height="500">
-                <div class="carousel-caption">
-                    <h2>I am sleepy</h2>
-                    <p> zzzzzzzzzz</p>
-                </div>
-            </div>
+            <div class="col-md-2"></div>
         </div>
-        <a class="carousel-control-prev" href="#imgcarousel" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#imgcarousel" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
+    </div>
+    <div>
+        <h1>About Me</h1>
     </div>
 </body>
 
