@@ -6,7 +6,7 @@ h1 {
     color:pink;
     display: flex;
     justify-content:center;
-    height: 800px;
+    height: 750px;
     width: 100vw;
     background-color: rgb(37,41,52);
 }
