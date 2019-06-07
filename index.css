@@ -4,17 +4,26 @@
 
 body {
     font-family: Nunito;
+    font-size: 1rem;
     font-style: normal;
 }
 
 #firstpage {
-    color:pink;
+    color: white;
     display: flex;
     text-align: center;
     justify-content:center;
     height: 100vh;  /*can be 770px*/
     width: 100%;
     background-color: rgb(37,41,52);
+}
+
+#firstpagetext {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align:center;
+    align-self: center;
 }
 
 #aboutme {
