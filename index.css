@@ -31,13 +31,13 @@ body {
     border-radius: 2px;
     font-size: 24px;
     color: white;
-    border: 2px solid rgb(227,26,110);
+    border: 2px solid rgb(197, 59, 239);
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 
 .buttonpage:hover {
-    background-color:rgb(227,26,110);
+    background-color:rgb(197, 59, 239);
     color:white;
 }
 
@@ -58,10 +58,10 @@ body {
 }
 
 #aboutmeimage {
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
+    text-align:center;
+    margin: 175px;
 }
+
 
 #myprojects {
     color: white;
