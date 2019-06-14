@@ -57,6 +57,12 @@ body {
     text-align:center;
 }
 
+#aboutmeimage {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
 #myprojects {
     color: white;
     display: flex;
@@ -92,4 +98,12 @@ body {
 #carousel {
     margin-top: 200px;
     align-content: center;
+}
+
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-control-next {
+    filter: invert(100%);
 }
